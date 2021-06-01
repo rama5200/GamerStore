@@ -23,18 +23,7 @@ class Carrito{
                 productosLS = productoLS.id;
             }
         });
-        if(productosLS === infoProducto.id){
-            /*infoProducto.cantidad++;
-            this.insertarProducto(infoProducto);*/
-            window.alert("El producto que intenta agregar ya se encuentra en el carrito")
-            Swal.fire({
-                type: 'info',
-                title: 'Oops...',
-                text: 'El producto que intenta agregar ya se encuentra en el carrito',
-            })
-        } else {
             this.insertarProducto(infoProducto);
-        }
     }
 
     insertarProducto(producto){
