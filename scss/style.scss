@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ecf5eb;
+    font-family: 'Russo One', sans-serif;
+}
+
+h1{
+    color: black;
+    font-size: 56pt;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+h2{
+    align-self: center;
+    text-align: center;
+}
+
+.btn-group{
+    width: 100%;
+    
+}
+
+.titulo{
+    width: 220px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.titulo-container{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+
+#carrito{
+    margin-left: 40px;
+    float: right;
+    width: 70px;
+    height: 70px;
+}
+
+
+header{ 
+    padding-top: 10px;
+    height: 110px;
+    background: linear-gradient(rgba(80, 76, 76, 0.123), #77767659);
+}
+
+.table{
+    thead{
+        tr{
+            th{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.desc-item{
+    margin: 20px 0px 20px 90px;
+    justify-content: center;
+    width: 85%;
+    
+    h2{
+        background-color: white;
+        text-align: center;
+        font-size: 14pt;
+        padding: 10px;
+        height: 80px;
+    }
+}
+
+.page-footer{
+    margin-top: 20px;
+    background-color: #33323259;
+
+    .container-fluid{
+        .col-md-3{
+            ul{
+                li{
+                    img{
+                        margin: 0px 5px 5px 0px;
+
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .footer-copyright{
+        border: 1px outset;
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
+.container{
+    .row{
+        .col-md-4{
+            .card{
+                .card-body{
+                    .btn{
+                        margin-top: 10px;
+                        background-color: black; 
+                        width: 90%; 
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
